@@ -44,14 +44,14 @@ export const NavBar = () => {
               <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
               <Nav.Link href="#aboutus" className={activeLink === 'aboutus' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('aboutus')}>About</Nav.Link>
               <Nav.Link href="#challenge" className={activeLink === 'challenge' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('challenge')}>Challenges</Nav.Link>
-              <Nav.Link href="#speaker" className={activeLink === 'speaker' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('speaker')}>Speakers</Nav.Link>
+              <Nav.Link href="#reward" className={activeLink === 'speaker' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('reward')}>Rewards</Nav.Link>
               <Nav.Link href="#schedule" className={activeLink === 'schedule' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('schedule')}>Schedule</Nav.Link>
               <Nav.Link href="#sponsor" className={activeLink === 'sponsor' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('sponsor')}>Sponsors</Nav.Link>
-              <Nav.Link href="#community" className={activeLink === 'community' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('community')}>Community Partners</Nav.Link>
+              <Nav.Link href="#faq" className={activeLink === 'faq' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('faq')}>FAQ</Nav.Link>
             </Nav>
             <span className="navbar-text">
               <HashLink to='#register'>
-                <button className="vvd"><span>Register</span></button>
+                <button className="vvd"><span>Register Now</span></button>
               </HashLink>
             </span>
             
