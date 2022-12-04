@@ -9,6 +9,7 @@ import { Challenges } from "./components/Challenges";
 import { Speakers } from "./components/Speakers"
 import Timeline from "./components/Timeline"
 import { Footer } from "./components/Footer";
+import Accordion from './components/Accordion';
 
 
 function App() {
@@ -17,11 +18,12 @@ function App() {
       <NavBar />
       <Banner />
       <WhyJoinUs/>
-      
+
       <AboutUs />
       <Challenges />
       <Speakers />
       <Timeline />
+      <Accordion/>
       <Footer />
     </div>
   );
